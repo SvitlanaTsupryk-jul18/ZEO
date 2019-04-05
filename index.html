@@ -5,7 +5,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="Description" content="This is test page demonstrates my abilities in HTML, CSS, JS">
-    <title>Maket</title>
+    <title>ZEO test</title>
     <link rel='stylesheet'
         href='https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.5.0/modern-normalize.min.css'>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
@@ -15,15 +15,32 @@
 </head>
 
 <body>
+    <h1 hidden>ZEO Test task</h1>
+    <button class="btn js-open-popup" type="button">
+        <span class="btn__outline btn__outline--tall">
+            <span class="btn__line btn__line--tall"></span>
+            <span class="btn__line btn__line--flat"></span>
+        </span>
+        <span class="btn__outline btn__outline--flat">
+            <span class="btn__line btn__line--tall"></span>
+            <span class="btn__line btn__line--flat"></span>
+        </span>
+        <span class="btn__solid"></span>
+        <span class="btn__text">Click on me</span>
+    </button>
+    <div class="popup">
+        <button type="button" class="popup__close"><img src="./images/icons/icon-popup-close.svg"
+                alt="close popup"></button>
+        <img src="./images/icons/icon-warning_notify-red.svg" alt="warning icon" class="popup__img">
+        <p class="popup__context">Are you sure you want to uninstall the Shazam app</p>
+        <div class="popup__buttons">
+            <button type="button" class="popup__btn popup__btn--cancel">Cancel</button>
+            <button type="button" class="popup__btn popup__btn--uninstall">Uninstall</button>
+        </div>
+    </div>
 
-    <header class="header">
-    </header>
 
-    <footer class="footer">
-
-    </footer>
-
-    <script src="script.js " defer></script>
+    <!-- <script src="script.js " defer></script> -->
 
 </body>
 
