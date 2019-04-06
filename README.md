@@ -1,1 +1,1 @@
-CLIK 👉 # [ZEO](https://svitlanatsupryk-jul18.github.io/ZEO/)
+# CLICK 👉 [ZEO](https://svitlanatsupryk-jul18.github.io/ZEO/)
