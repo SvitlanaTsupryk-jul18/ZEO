@@ -1,14 +1,13 @@
 let buttonOpen = document.querySelector(".js-open-popup");
 let container = document.querySelector(".popup");
-let popup = document.querySelector(".popup__inner");
 let buttonCancel = document.querySelector(".popup__btn--cancel");
 let buttonUninstall = document.querySelector(".popup__btn--uninstall");
 
 buttonOpen.addEventListener("click", showPopup);
 
 function showPopup() {
-    container.classList.replace("hide", "show");
 
+    container.classList.replace("hide", "show");
     container.addEventListener("click", closePopup);
 
     function closePopup(e) {
@@ -21,8 +20,6 @@ function showPopup() {
                 alert("done!")
             }, 500);
         }
-
         container.removeEventListener("click", closePopup);
     }
-
 }
